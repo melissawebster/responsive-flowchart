@@ -1,0 +1,116 @@
+body{
+    background-color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#family-static {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    text-align: center;
+    background-color: #118ab2;
+    color: #FFF;
+    width: 100%;
+    height: 40px;
+    z-index: 1;
+}
+
+#flowchart {
+    margin-top:100px;
+    font-size: 14px;
+    text-align: center;
+    width: 70%;
+    max-width: 600px;
+    display: block;
+    margin: 120px auto;
+}
+
+.arrow-center {
+    display: block;
+    margin: 0px auto;
+    height: 30px;
+}
+
+.arrow-left {
+    display: block;
+    margin-left: 40px;
+    height: 30px;
+}
+
+.blank { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+
+.red { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    margin: 5px auto;
+    background-color: #ef476f;
+    height: fit-content;
+    padding: 15px;
+}
+
+.blue { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    margin: 5px auto;
+    background-color: #118ab2;
+    height: fit-content;
+    padding: 15px;
+}
+
+.yellow { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    margin: 5px auto;
+    background-color: #ffd166;
+    height: fit-content;
+    padding: 15px;
+}
+
+.green { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    margin: 5px auto;
+    background-color: #06d6a0;
+    height: fit-content;
+    padding: 15px;
+}
+
+.compound-node {
+    text-align: center;
+    color: #000000;
+    margin: 5px auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000;
+    background-color: #FFF;
+    padding: 3px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffd166;
+    height: fit-content;
+    margin: 5px;
+    padding: 10px;
+}
+
