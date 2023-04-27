@@ -119,6 +119,10 @@ body {
 
 /* specific fixes */
 
+.left {
+    margin: 0px auto auto 35px;
+}
+
 .right {
     margin: 3px 50px 3px auto;
 }
