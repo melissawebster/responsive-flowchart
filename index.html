@@ -8,33 +8,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="family-static">Family Referred to LHV</div>
+    <div id="family">Family Referred to LHV</div>
 
     <div id="key">
         <div class="">Key:</div> 
-        <div class="bg-red key-boxes white-text">Activity</div>
-        <div class="bg-blue key-boxes white-text">Enabling Factor</div>
-        <div class="bg-yellow key-boxes">Intermediate Outcome</div>
-        <div class="bg-green key-boxes">Long-term goal</div>
+        <div class="bg-red key-boxes">Activity</div>
+        <div class="bg-blue key-boxes">Enabling<br>Factor</div>
+        <div class="bg-yellow key-boxes">Intermediate<br>Outcome</div>
+        <div class="bg-green key-boxes">Long-term<br>goal</div>
     </div>
 
-    <hr>
+    <hr id="hr">
 
     <div id="flowchart">
     
-        <div class="red">1:1 Intake by Family Coordinator<br> [read more...]</div>
+        <div class="node bg-red">1:1 Intake by Family Coordinator<br> [read more...]</div>
 
         <img src="img/down-arrow.png" class="arrow-center">
 
-        <div class="blue">Family Coordinators speak the same language as our clients and are highly trained in working with clients experiencing high proverty</div>
+        <div class="node bg-blue">Family Coordinators speak the same language as our clients and are highly trained in working with clients experiencing high proverty</div>
 
         <img src="img/down-arrow.png" class="arrow-center">
 
-        <div class="yellow">Clients develop feelings of trust, honesty and openness with staff</div>
+        <div class="node bg-yellow">Clients develop feelings of trust, honesty and openness with staff</div>
 
         <img src="img/down-arrow.png" class="arrow-center">
 
-        <div class="red">Video Training</div>
+        <div class="node bg-red">Video Training</div>
 
         <img src="img/down-arrow.png" class="arrow-center">
 
@@ -53,13 +53,13 @@
 
         <img src="img/down-arrow.png" class="arrow-left">
 
-        <div class="blank">
+        <div class="blank-row">
 
-            <div class="red">In-person training</div>
+            <div class="node bg-red">In-person training</div>
 
             <img src="img/bracket-left.png" alt="">
 
-            <div class="red">1:1 key trainer: provides instruction on child-directed play, teacher resources, kindergarten readiness</div>
+            <div class="node bg-red">1:1 key trainer: provides instruction on child-directed play, teacher resources, kindergarten readiness</div>
 
         </div>
 
@@ -88,34 +88,40 @@
 
         <img src="img/down-arrow.png" class="arrow-left">
 
-        <div class="blank">
+        <div class="blank-row">
 
-            <div class="red">Learning kits & Accompanying native language videos for ideas for using materials</div>
-
-            <img src="img/family.png" alt="">
+            <div class="node bg-red">
+                Learning kits & Accompanying native language videos for ideas for using materials
+                <img src="img/family.png" class="img-node">
+            </div>
 
             <img src="img/left-arrow.png">
         
-            <div class ="red">Ongoing encouragement, removal of barriers to learning, and provide specific support for various learning topics</div>
-
-            <img src="img/lhv.png" alt="">
-
-            <img src="img/bracket-right.png" alt="">
-
-            <div class="blue">
-                Core&nbsp;Service&nbsp;Support<br>
-                Counceling&nbsp;Services<br>
-                Translation&nbsp;Services
-
+            <div class ="node bg-red">
+                Ongoing encouragement, removal of barriers to learning, and provide specific support for various learning topics
+                <img src="img/lhv.png" class="img-node">
+                
             </div>
-
-
-
 
         </div>
 
+        <div class="blank-row">
 
-        <img src="img/down-arrow.png" class="arrow-left">
+            <img src="img/bracket-up.png" class="right">
+
+        </div>
+
+        <div class="blank-row">
+
+            <img src="img/down-arrow.png" class="arrow-left up">
+            
+            <div class="node bg-blue fix">
+                Core&nbsp;Service&nbsp;Support<br>
+                Counceling&nbsp;Services<br>
+                Translation&nbsp;Services
+            </div>
+            
+        </div>
 
         <div class="compound-node">
             <p class="box">
@@ -135,15 +141,15 @@
             </p>
         </div>
 
-        <img src="img/down-arrow.png" class="arrow-left">
+        <img src="img/down-arrow.png" class="arrow-center">
 
         <div class="blank">
 
-            <div class="green">Parent Efficacy: Able to support client in learning, able to advocate for child's unique learning needs, able to support their child in educational setting</div>
+            <div class="node bg-green">Parent Efficacy: Able to support client in learning, able to advocate for child's unique learning needs, able to support their child in educational setting</div>
 
-            <img src="img/left-arrow.png">
+            <img src="img/down-arrow.png" class="arrow-center">
 
-            <div class="red">"Move on" support including introduction to school resources, warm introductions, followup through year 1 school</div>
+            <div class="node bg-red">"Move on" support including introduction to school resources, warm introductions, followup through year 1 school</div>
 
         </div>
 

@@ -1,9 +1,10 @@
-body{
+body {
     background-color: #FFF;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
-#family-static {
+#family {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,15 +18,14 @@ body{
     color: #FFF;
     width: 100%;
     height: 40px;
-    z-index: 1;
 }
 
 #key {
     display: flex;
     align-items: center;
-    justify-content: center;
-    max-width: 600px;
-    margin: 70px 0px 25px 0px;
+    max-width: 450px;
+    margin: 70px auto 20px auto;
+    font-size: 12px;
 }
 
 .key-boxes {
@@ -33,33 +33,37 @@ body{
     justify-content: center;
     margin: 5px auto;
     background-color: #ef476f;
-    height: fit-content;
+    height: 25px;
     width: fit-content;
     padding: 15px;
+    border-radius: 5px;
+
 }
 
 .bg-red {
     background-color: #ef476f;
+    color: #FFF;
 }
 
 .bg-blue {
     background-color: #118ab2;
+    color: #FFF;
 }
 
 .bg-yellow {
     background-color: #ffd166;
+    color: #282828;
 }
 
 .bg-green {
     background-color: #06d6a0;
+    color: #282828;
 }
 
-.black-text {
-    color: #000;
-}
 
-.white-text {
-    color: #FFF;
+#hr {
+    border: 1px solid #c6c6c6;
+    max-width: 650px;
 }
 
 #flowchart {
@@ -67,10 +71,65 @@ body{
     text-align: center;
     line-height: 1.5;
     width: 70%;
-    max-width: 600px;
+    max-width: 650px;
     display: block;
     margin: 60px auto;
 }
+
+.blank-row { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+
+.node {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 5px auto;
+    height: fit-content;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.compound-node {
+    text-align: center;
+    color: #282828;
+    margin: 5px auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c6c6c6;
+    background-color: #FFF;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffd166;
+    height: fit-content;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+/* specific fixes */
+
+.right {
+    margin: 3px 50px 3px auto;
+}
+
+.fix {
+    display: block;
+    width: fit-content;
+    margin-right: 0px;
+}
+
+/* images */
 
 .arrow-center {
     display: block;
@@ -84,75 +143,8 @@ body{
     height: 30px;
 }
 
-.blank { 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: fit-content;
-}
-
-.red { 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #FFF;
-    margin: 5px auto;
-    background-color: #ef476f;
-    height: fit-content;
-    padding: 15px;
-}
-
-.blue { 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #FFF;
-    margin: 5px auto;
-    background-color: #118ab2;
-    height: fit-content;
-    padding: 15px;
-}
-
-.yellow { 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #000000;
-    margin: 5px auto;
-    background-color: #ffd166;
-    height: fit-content;
-    padding: 15px;
-}
-
-.green { 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #000000;
-    margin: 5px auto;
-    background-color: #06d6a0;
-    height: fit-content;
-    padding: 15px;
-}
-
-.compound-node {
-    text-align: center;
-    color: #000000;
-    margin: 5px auto;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #000;
-    background-color: #FFF;
-    padding: 3px;
-}
-
-.box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #ffd166;
-    height: fit-content;
-    margin: 5px;
-    padding: 10px;
+.img-node {
+    display: block;
+    margin: 10px auto 10px auto; 
 }
 
