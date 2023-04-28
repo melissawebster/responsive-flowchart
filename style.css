@@ -4,27 +4,11 @@ body {
     
 }
 
-#family {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 16px;
-    text-align: center;
-    top: 0px;
-    left: 0px;
-    position: absolute;
-    text-align: center;
-    background-color: #118ab2;
-    color: #FFF;
-    width: 100%;
-    height: 40px;
-}
-
 #key {
     display: flex;
     align-items: center;
     max-width: 450px;
-    margin: 70px auto 20px auto;
+    margin: 40px auto 20px auto;
     font-size: 12px;
 }
 
