@@ -10,14 +10,15 @@ body {
     max-width: 450px;
     margin: 40px auto 20px auto;
     font-size: 12px;
+    padding: 15px;
+    border: 1px solid #c6c6c6;
 }
 
 .key-boxes {
     align-items: center;
     justify-content: center;
     margin: 5px auto;
-    background-color: #ef476f;
-    height: 25px;
+    height: 40px;
     width: fit-content;
     padding: 15px;
     border-radius: 5px;
@@ -54,10 +55,10 @@ body {
     font-size: 14px;
     text-align: center;
     line-height: 1.5;
-    width: 70%;
-    max-width: 650px;
+    width: 85%;
+    max-width: 1000px;
     display: block;
-    margin: 60px auto;
+    margin: 50px auto;
 }
 
 .blank-row { 
@@ -85,7 +86,7 @@ body {
     border-width: 1px;
     border-color: #c6c6c6;
     background-color: #FFF;
-    padding: 3px;
+    padding: 13px;
     border-radius: 5px;
 }
 
@@ -104,7 +105,7 @@ body {
 /* specific fixes */
 
 .left {
-    margin: 0px auto auto 35px;
+    margin: 0px auto auto 38px;
 }
 
 .right {
