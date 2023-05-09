@@ -1,16 +1,13 @@
-function readMore() {
-    const division = document.querySelector('span#edge')
-    const moreText = document.querySelector('span#more-text')
-    const moreButton = document.querySelector('button#more-button')
+function readMoreLess() {
+    let moreText = document.getElementById('more-text')
+    let moreButton = document.getElementsByTagName('button')[0]
 
-    if (division.style.display === "none") {
-        division.style.display = "inline";
-        moreButton.innerHTML = "read more..."; 
-        moreText.style.display = "none";
+    if (moreText.style.display === "none") {
+        moreText.style.display = "block";
+        moreButton.innerHTML = "Read less";
       } else {
-        division.style.display = "none";
-        moreButton.innerHTML = "read less"; 
-        moreText.style.display = "inline";
+        moreText.style.display = "none";
+        moreButton.innerHTML = "Read more...";
       }
-
 }
+
