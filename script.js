@@ -1,5 +1,5 @@
 function readMore() {
-    const division = document.querySelector('span#division')
+    const division = document.querySelector('span#edge')
     const moreText = document.querySelector('span#more-text')
     const moreButton = document.querySelector('button#more-button')
 
