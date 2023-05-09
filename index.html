@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Theory of Change</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
 
@@ -23,7 +24,13 @@
 
         <img src="https://learninghomevolunteers.org/wp-content/uploads/down-arrow.png" class="arrow-center">
     
-        <div class="node bg-red">1:1 Intake by Family Coordinator<br> [read more...]</div>
+        <div class="node bg-red"><p>Intake by Family Coordinator</p><span id="division"></span>
+
+            <span id="more-text"><p>Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis.</p></span>
+
+            <button onclick="readMore()" id="more-button">read more...</button>
+        
+        </div>
 
         <img src="https://learninghomevolunteers.org/wp-content/uploads/down-arrow.png" class="arrow-center">
 

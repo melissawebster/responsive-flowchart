@@ -4,6 +4,8 @@ body {
     
 }
 
+/* key */
+
 #key-title {
     margin-top: 40px;
     font-size: 12px;
@@ -31,6 +33,9 @@ body {
 
 }
 
+
+/* node styles */
+
 .bg-red {
     background-color: #ef476f;
     color: #FFF;
@@ -52,10 +57,7 @@ body {
 }
 
 
-#hr {
-    border: 1px solid #c6c6c6;
-    max-width: 650px;
-}
+/* flowchart */
 
 #flowchart {
     font-size: 14px;
@@ -157,3 +159,17 @@ body {
     margin: 10px auto 10px auto; 
 }
 
+
+/* js function read more */
+
+#more-button {
+    background-color: #ffffff26;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #FFF;
+}
+
+#more-text {
+    display: none;
+}
