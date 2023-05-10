@@ -20,24 +20,39 @@
 
     <div id="flowchart">
 
-        <div class="node bg-blue">Family Referred to LHV</div>
+        <div class="node bg-blue">
+
+            <div class="read-more-container">
+
+                <p class="main-text">Family Referred to LHV</p>
+
+                <p class="hidden-text">
+                    Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis.
+                </p>
+
+                <button class="read-more-btn" onclick="showMoreLess(event, this)">Read more...</button>
+
+            </div>
+
+        </div>
+
 
         <img src="https://learninghomevolunteers.org/wp-content/uploads/down-arrow.png" class="arrow-center">
     
+
         <div class="node bg-red">
 
-            <span class="read-more-container">
-                <p>
-                    Intake by Family Coordinator
+            <div class="read-more-container">
 
-                    <span id="more-text">
-                        Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis.
-                    </span>
-
+                <p class="main-text">Intake by Family Coordinator</p>
+                    
+                <p class="hidden-text">
+                    Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis.
                 </p>
-            </span>
 
-            <button onclick="readMoreLess()" id="read-more-btn">Read more...</button>
+                <button class="read-more-btn" onclick="showMoreLess(event, this)">Read more...</button>
+
+            </div>
         
         </div>
 
