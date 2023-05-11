@@ -136,6 +136,10 @@ body {
     margin: 0px 15px 0px 15px;
 }
 
+.box-button {
+    margin: 5px 5px;
+}
+
 /* images */
 
 .left {
@@ -162,16 +166,21 @@ body {
 
 /* js function */
 
+.main-text {
+    margin: 0px;
+}
+
 .hidden-text {
     display: none;
+    font-size: 12px;
+    margin-bottom: 0px;
 }
 
 .read-more-btn {
-    background-color: #ffffff5a;
-    color: #ffffff;
     font-size: 12px;
+    text-decoration: underline;
     border: none;
-    padding: 5px 10px;
+    margin-top: 0px;
 }
 
 .show {

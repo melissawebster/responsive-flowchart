@@ -20,41 +20,13 @@
 
     <div id="flowchart">
 
-        <div class="node bg-blue">
-
-            <div class="read-more-container">
-
-                <p class="main-text">Family Referred to LHV</p>
-
-                <p class="hidden-text">
-                    Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis.
-                </p>
-
-                <button class="read-more-btn" onclick="showMoreLess(event, this)">Read more...</button>
-
-            </div>
-
-        </div>
+        <div class="node bg-blue">Family Referred to LHV</div>
 
 
         <img src="https://learninghomevolunteers.org/wp-content/uploads/down-arrow.png" class="arrow-center">
     
 
-        <div class="node bg-red">
-
-            <div class="read-more-container">
-
-                <p class="main-text">Intake by Family Coordinator</p>
-                    
-                <p class="hidden-text">
-                    Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis.
-                </p>
-
-                <button class="read-more-btn" onclick="showMoreLess(event, this)">Read more...</button>
-
-            </div>
-        
-        </div>
+        <div class="node bg-red">Intake by Family Coordinator</div>
 
         <img src="https://learninghomevolunteers.org/wp-content/uploads/down-arrow.png" class="arrow-center">
 
@@ -66,14 +38,33 @@
 
         <img src="https://learninghomevolunteers.org/wp-content/uploads/down-arrow.png" class="arrow-center">
 
-        <div class="node bg-red">Video Training</div>
+        <div class="node bg-red">
+            
+            <p class="main-text">Video Training</p>
+            
+            <p class="hidden-text">
+                LMS-based online learning, with interactive quizzes, and student discussion boards.
+            </p>
+
+            <button class="read-more-btn bg-red" onclick="showMoreLess(event, this)">read more...</button>
+        
+        </div>
 
         <img src="https://learninghomevolunteers.org/wp-content/uploads/down-arrow.png" class="arrow-center">
 
         <div class="compound-node">
-            <p class="box">
-                Understand the value of entering kindergarten ready
-            </p>
+
+            <div class="node bg-yellow box-button">
+
+                <p class="main-text">Understand the value of entering kindergarten ready</p>
+
+                <p class="hidden-text">
+                    Kindergarten readiness is the #1 indicator of academic success. 90% of brain development is complete by age 5.
+                </p>
+
+                <button class="read-more-btn bg-yellow" onclick="showMoreLess(event, this)">read more...</button>
+
+            </div>
             <p class="box">
                 Understand their role as an adult in the child's learning
             </p>
@@ -87,7 +78,17 @@
 
         <div class="blank-row">
 
-            <div class="node bg-red width-100 margin15">In-person training</div>
+            <div class="node bg-red width-100 margin15">
+                
+                <p class="main-text">In-person training</p>
+
+                <p class="hidden-text">
+                    Each training session takes place at a Learning Home Volunteers location, where families are given the opportunity to connect with eachother.
+                </p>
+
+                <button class="read-more-btn bg-red" onclick="showMoreLess(event, this)">read more...</button>
+
+            </div>
 
             <img src="https://learninghomevolunteers.org/wp-content/uploads/bracket-right.png" alt="">
 
@@ -123,8 +124,17 @@
         <div class="blank-row">
 
             <div class="node bg-red">
-                Learning kits & Accompanying native language videos for ideas for using materials
+
+                <p class="main-text">Learning kits & Accompanying native language videos for ideas for using materials</p>
+
                 <img src="https://learninghomevolunteers.org/wp-content/uploads/family.png" class="img-node">
+
+                <p class="hidden-text">
+                    Each learning session provides theme-based learning. Each session includes books that are read and 6–7 activities. Materials are delivered to the home every three week. Included in the materials are additional customized learning materials chosen to delight that particular child.
+                </p>
+
+                <button class="read-more-btn bg-red" onclick="showMoreLess(event, this)">read more...</button>
+
             </div>
 
             <img src="https://learninghomevolunteers.org/wp-content/uploads/left-arrow.png">
@@ -165,19 +175,46 @@
             <p class="box">
                 Provided learning activities specifically designed to be developmentally neutral and open to be used in many different ways to fit the child's needs
             </p>
-            <p class="box">
-                Document through pictures and videos child's interaction with learning kits
-            </p>
-            <p class="box">
-                Provided books for the child's library
-            </p>
+            <div class="node bg-yellow box-button">
+
+                <p class="main-text">Document through pictures and videos child's interaction with learning kits</p>
+
+                <p class="hidden-text">
+                    Parents can opt to share their progress with other families in their cohort through our online community platform
+                </p>
+
+                <button class="read-more-btn bg-yellow" onclick="showMoreLess(event, this)">read more...</button>
+
+            </div>
+
+            <div class="node bg-yellow box-button">
+
+                <p class="main-text">Provided books for the child's library</p>
+
+                <p class="hidden-text">
+                    We provide a core set of books and 2 books per month to introduce the child to the gift of reading.
+                </p>
+
+                <button class="read-more-btn bg-yellow" onclick="showMoreLess(event, this)">read more...</button>
+
+            </div>
         </div>
 
         <img src="https://learninghomevolunteers.org/wp-content/uploads/down-arrow.png" class="arrow-left">
 
         <div class="blank-row">
 
-            <div class="node bg-green">Parent Efficacy: Able to support client in learning, able to advocate for child's unique learning needs, able to support their child in educational setting</div>
+            <div class="node bg-green">
+                
+                <p class="main-text">Parent Efficacy: Able to support client in learning, able to advocate for child's unique learning needs, able to support their child in educational setting</p>
+
+                <p class="hidden-text">
+                    Their goal for their child is to enter school with all the requisite skills to learn on day 1. And they are doing just that! For our second year in a row, all of our graduates have entered kindergarten ready in all 32 measures!
+                </p>
+
+                <button class="read-more-btn bg-green" onclick="showMoreLess(event, this)">read more...</button>
+            
+            </div>
 
             <img src="https://learninghomevolunteers.org/wp-content/uploads/left-arrow.png">
 
