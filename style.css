@@ -69,11 +69,14 @@ body {
     margin: 50px auto;
 }
 
-.blank-row { 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: fit-content;
+.grid-container3 { 
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 .node {
@@ -112,8 +115,20 @@ body {
 
 /* specific fixes */
 
+.top-20 {
+    margin-top: 20px;
+}
+
+.top-50 {
+    margin-top: 50px;
+}
+
+.bracket-up {
+    margin-left: auto;
+}
+
 .right {
-    margin: 0px 50px 3px auto;
+    margin-right: 0px;
 }
 
 .center {
@@ -132,13 +147,10 @@ body {
     width: 100%;
 }
 
-.margin15 {
-    margin: 0px 15px 0px 15px;
-}
-
 .box-button {
     margin: 5px 5px;
 }
+
 
 /* images */
 
